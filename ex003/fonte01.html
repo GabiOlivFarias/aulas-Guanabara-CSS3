@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url();
+        /*weight- peso
+        height- altura
+        width- largura*/
+        body{
+            font-family:'work Sans','Courier New', arial, sans-serif;
+            /*medidas absolutas
+            cm, mm, in-polegada, px, pt, pc-paica  pt e paica n é orientado p telas, e sim em papel
+            recomendado pt
+            medidas relativas
+            em- altura m M maiusculo, ex- altura x, rem- relativo ao root
+            vw- tamanho da tela view port % da largura da vw
+            vh- altura da vw
+            %
+            recomendado em
+            */ 
+
+            font-size:1em ;/*tamanho padrão 16px, por conta das telas indicado o EM*/
+            /*em vai ser em relação ao tamanho*/ 
+            font-weight: 500;
+            /*PESOS: lighter normal bold bolder do mais margro p mais gordo*/
+            font-style: italic;
+            text-decoration: underline;
+
+
+        }
+        h1{
+            /*font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;  no lugar desse usar abaixo: */
+            font: italic bolder 3em 'work Sans', sans-serif;
+        }
+        /*shorthand
+        font: ordem:
+        -font style > font- weight> font-size> font-family*/
+        h2{
+            font: bold 2em 'worf Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia consequatur fuga adipisci animi velit vero, dignissimos, iusto pariatur hic harum, atque omnis amet unde praesentium commodi labore! Tempora, ex perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eius ipsa, dolore cum placeat ipsum fugiat. Odit debitis, fuga, perspiciatis tempora harum ducimus eveniet dolorem quasi voluptatibus dolores, suscipit assumenda!</p>
+    <h2>subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos porro nihil reprehenderit, soluta tempora ea sapiente corporis saepe. Laborum omnis obcaecati sequi optio consequatur illum quos soluta quaerat odit. Sed. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia obcaecati perspiciatis suscipit odit facere nesciunt ratione hic dolore numquam alias perferendis maiores dicta odio, commodi nam nobis error, quas saepe?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, harum totam dolorum ab, assumenda at asperiores quia quas molestiae dignissimos doloremque nostrum, suscipit optio repudiandae accusamus accusantium corrupti alias ipsum!</p>
+
+</body>
+</html>

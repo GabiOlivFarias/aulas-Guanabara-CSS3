@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* 
+tudo em HTML é id em CSS é #, eu posso colocar h1#principal ou so como abaixo
+em HTML é class em CSS é .
+
+dentro de um documento só se pode ter 1 id, regra W3C. p isso usa class
+posso colocar + de uma class p cada só separar por espaço
+*/
+
+body{
+    background-color: #F57E6C;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    color: #753C34;
+
+}
+#principal{
+    color: #361C18;
+    text-align: center;
+    background-color: #e09f95;
+}
+h2{
+    color: #b34f3f;
+}
+.basico{
+    color: rgb(9, 136, 9);
+    font-weight: bold;
+}
+.inter{
+    color: rgb(201, 233, 19);
+}
+.avancado{
+    color: #f72100;
+}
+.destaque{
+    background-color: rgba(248, 99, 191, 0.842);
+}

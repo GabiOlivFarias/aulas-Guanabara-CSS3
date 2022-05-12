@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-be">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style>
+        body{
+            background-color: rgb(253, 202, 139);
+        }
+        div > p{ /*esse > signifa filho da div, ou seja só o paragrafo dentro da div*/
+            display: none; /*não mostre nada*/
+        }
+        div:hover >p{ /*qaundo passa o mause no p filho > de div BOA IDEIA P MENU*/
+            display: block; /*display, mostre o p*/
+            color: aliceblue;
+            background-color: blueviolet;
+            width: 300px;
+        }
+        div:hover{
+            color: rgb(243, 16, 16); 
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mause sobre o texto abaixo</p>
+
+    <div>Passe o mause aqui
+        <p>texto escondido</p>
+    </div>
+    <p>Fim do exemplo</p>
+    
+</body>
+</html>

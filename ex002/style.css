@@ -1,0 +1,33 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-image: linear-gradient(to bottom,#c45c95,#e4b3c0);   
+}
+main{
+    border-radius: 10px;
+    background-color: #fff0dd   ;
+    box-shadow: 10px 10px 50px #5a0d37 ;/*quanto p lado, quanto para baixo, quanto espalhado, transparencia*/
+    width: 600px; /*largura*/
+    padding: 10px;
+    margin: auto;
+}
+img{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+h1{
+    text-align: center;
+    color: #645835;
+    text-shadow: 5px 5px 5px #5a0d37;
+    /*box-shadow é interessante tbm para menus*/
+}
+h2{
+    color: #BFAE99;
+}
+p{
+    text-align: justify;
+}

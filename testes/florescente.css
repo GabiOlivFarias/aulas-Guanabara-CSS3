@@ -1,0 +1,26 @@
+@charset "UTF-8";
+section{
+    background-color: rgb(78, 76, 73);
+    height: 500px;
+    border-radius: 10px;
+}
+h2,h3{
+    color:rgb(216, 218, 219);
+    text-align: center;
+    border: 3px solid rgb(190, 100, 100);
+    border-radius: 10px;
+    box-shadow:rgb(202, 150, 150) 10px;
+}
+
+article{
+    background-color: rgb(166, 172, 172);
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
+footer{
+    background-color: rgb(223, 221, 219);
+}
+
